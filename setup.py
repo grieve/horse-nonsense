@@ -11,9 +11,9 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='horse-nonsense',
-    version='0.1.2',
+    version='0.1.3',
 
-    description='A chat bot framework for Slack',
+    description='Stupid, silly, fun and distracting bridles for Horse',
     long_description="""
 """,
 
@@ -43,6 +43,7 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
 
     install_requires=[
+        'horse',
         'pillow',
         'numpy'
     ],
